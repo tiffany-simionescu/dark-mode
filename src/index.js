@@ -27,7 +27,6 @@ const App = () => {
       <Route path="/charts" render={() => {
         return <Charts coinData={coinData} />
       }} />
-      {/* <Charts coinData={coinData} /> */}
     </div>
   );
 };
